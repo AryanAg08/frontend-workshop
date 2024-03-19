@@ -15,11 +15,12 @@ function App() {
     <>
     <Navbar/>
      <>
-      <h1> Hello world </h1>
+      {/* <h1> Hello world </h1> */}
+      {/* <Button name={"GDSC"} />  */}
       <Register />
       
-      <Component1 />
-      {/* <Footer/> */}
+      {/* <Component1 /> */}
+      <Footer/>
      </>
      
     
