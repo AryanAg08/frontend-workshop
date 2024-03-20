@@ -1,4 +1,6 @@
 .navbar {
+  display: flex;
+  justify-content: space-around;
   background-color: #333;
   overflow: hidden;
   position: fixed;

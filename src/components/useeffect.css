@@ -1,8 +1,7 @@
-/* MyComponent.css */
 .my-component {
     width: 100%;
-    max-width: 400px; /* Set a maximum width if needed */
-    margin: 0 auto; /* Center the component horizontally */
+    max-width: 400px; 
+    margin: 0 auto; 
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;

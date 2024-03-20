@@ -28,7 +28,7 @@ function Register() {
       }
 
     try {
-      const response = await fetch("http://3.106.183.96:5000/signup", {
+      const response = await fetch("http://127.0.0.1:5000/signup", {  
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
@@ -36,7 +36,7 @@ function Register() {
         body: JSON.stringify(formData),
       });
       const result = await response.json();
-      if (result.code === 200) {
+      if (result.code === 201) {
         setStatus({ success: true, message: 'User saved successfully!!'});
       } else {
         setStatus({ success: false, message: 'Something went wrong, please try again later.'});

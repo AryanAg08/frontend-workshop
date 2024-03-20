@@ -3,7 +3,7 @@ import React from 'react';
 const Button = ({ name }) => {
     return (
         <button style={{ 
-            backgroundColor: 'blue',
+            backgroundColor: 'Green',
             color: 'white',
             padding: '10px 20px',
             border: 'none',
